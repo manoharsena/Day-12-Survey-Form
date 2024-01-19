@@ -1,0 +1,133 @@
+.container {
+    border: 1px solid #d5cdcd;
+    padding: 18px;
+}
+
+.mandatory {
+    color: red;
+}
+
+body {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.label1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.inline {
+    display: inline-block;
+    padding-right: 8px;
+}
+
+.textbox-name {
+    width: 100%;
+    border: 1px solid #d5cdcd;
+    font-size: x-large;
+}
+
+.textbox-email {
+    width: 43cqmax;
+    display: inline;
+    border: 1px solid #d5cdcd;
+    font-size: x-large;
+}
+
+.textbox-comments {
+    display: inline-block;
+    height: 10em;
+    border: 1px solid #d5cdcd;
+}
+
+.text-desc {
+    font-size: 16px;
+}
+
+.pad-button {
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+
+.pad-top-bot {
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+
+.bckgrnd-color {
+    background-color: #f1f1f1;
+    border: 3px solid #f1f1f1;
+}
+
+.bckgrnd-color-none {
+    background-color: white;
+    border: 3px solid white;
+}
+
+.button {
+    border: 1px solid grey;
+    color: black;
+    background-color: #f1f1f1;
+    padding: 13px 26px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    border: 1px solid beige;
+    background-color: #05bcfa;
+    color: white;
+}
+
+* {
+    margin: 0;
+}
+
+.rating {
+    float: left;
+    height: 28px;
+    padding: 0px;
+}
+
+.rating:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rating:not(:checked)>label {
+    float: right;
+    width: 1.26em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 31px;
+    color: #ccc;
+}
+
+.rating:not(:checked)>label:before {
+    content: '★ ';
+}
+
+.rating>input:checked~label {
+    color: #ffc700;
+}
+
+.rating:not(:checked)>label:hover,
+.rating:not(:checked)>label:hover~label {
+    color: #deb217;
+}
+
+.rating>input:checked+label:hover,
+.rating>input:checked+label:hover~label,
+.rating>input:checked~label:hover,
+.rating>input:checked~label:hover~label,
+.rating>label:hover~input:checked~label {
+    color: #c59b08;
+}
