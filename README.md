@@ -2,7 +2,7 @@
 
 This Project is to create a page for **Survey Form**.
 
-To preview the page [Click Here](https://tribute-nazrul-islam.netlify.app/)
+To preview the page [Click Here](https://survey-form-day12.netlify.app/)
 <br>
 
 ![Outout Screen Shot](Survey-Form.png)
